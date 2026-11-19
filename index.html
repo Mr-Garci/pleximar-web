@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pleximar | Menaje, hogar y repostería en Jerez de la Frontera</title>
+<meta name="description" content="Pleximar, tienda de menaje y hogar en la calle Medina de Jerez de la Frontera: decoración para la casa y utensilios e ingredientes para la repostería. Horario, teléfono y cómo llegar.">
+<meta name="theme-color" content="#f0d6cc">
+
+<link rel="canonical" href="https://pleximar.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Pleximar">
+<meta property="og:title" content="Pleximar | Menaje, hogar y repostería en Jerez">
+<meta property="og:description" content="Decoración y menaje para la casa, y utensilios e ingredientes para la repostería, en la calle Medina de Jerez de la Frontera.">
+<meta property="og:url" content="https://pleximar.com/">
+<meta property="og:image" content="https://pleximar.com/fotos/tienda.jpg">
+<meta property="og:image:width" content="765">
+<meta property="og:image:height" content="1020">
+<meta property="og:image:alt" content="Interior de la tienda Pleximar, con lámparas colgantes, espejos y flores">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23b4472d'/%3E%3Cpath d='M18 14l14 36M46 14L18 50' stroke='%23fbf1ec' stroke-width='7' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "Pleximar",
+  "description": "Tienda de artículos de menaje y hogar. Utensilios e ingredientes para la repostería",
+  "url": "https://pleximar.com/",
+  "image": "https://pleximar.com/fotos/tienda.jpg",
+  "telephone": "+34956341095",
+  "email": "info@pleximar.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "C. Medina, 7",
+    "postalCode": "11402",
+    "addressLocality": "Jerez de la Frontera",
+    "addressRegion": "Cádiz",
+    "addressCountry": "ES"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "10:00", "closes": "13:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "17:30", "closes": "20:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "14:00" }
+  ],
+  "sameAs": ["https://www.facebook.com/PleximarJerez/"]
+}
+</script>
+
+<style>
+:root{
+  --rosa:#f0d6cc;        /* pared de la tienda */
+  --rosa-2:#e6c3b6;
+  --crema:#fbf1ec;
+  --tinta:#231b19;       /* negro del rótulo */
+  --tinta-suave:#54443f;
+  --acento:#b4472d;      /* terracota de las pantallas y las flores */
+  --acento-oscuro:#8f3320;
+  --oro:#9a7424;         /* marcos dorados: solo filetes */
+  --oro-claro:#dcbb6c;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --cond:"Bahnschrift","Avenir Next Condensed","Arial Narrow","Roboto Condensed",Arial,sans-serif;
+  --texto:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:1rem}
+body{margin:0;background:var(--crema);color:var(--tinta);font:1.0625rem/1.6 var(--texto);overflow-x:clip}
+img,svg{max-width:100%}
+a{color:var(--acento-oscuro);font-weight:700;text-decoration:none;border-bottom:2px solid transparent;transition:border-color .15s ease,background-color .15s ease}
+a:hover{border-bottom-color:currentColor}
+:focus-visible{outline:3px solid var(--tinta);outline-offset:3px;border-radius:2px}
+.saltar{position:absolute;left:1rem;top:-5rem;background:var(--tinta);color:var(--crema);padding:.75rem 1rem;z-index:20;border:0}
+.saltar:focus{top:1rem}
+.caja{width:min(100% - 2rem,72rem);margin-inline:auto}
+h1,h2,h3{font-family:var(--serif);font-weight:700;line-height:1.08;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.35rem,8.2vw,4.4rem);letter-spacing:-.01em}
+h2{font-size:clamp(1.9rem,5.5vw,2.9rem)}
+h3{font-size:1.4rem}
+p{margin:0 0 1rem;max-width:58ch;text-wrap:pretty}
+
+/* Marco dorado, como los espejos de la tienda */
+.marco{position:relative;margin:0}
+.marco img{display:block;width:100%;height:auto;object-fit:cover}
+.marco::after{content:"";position:absolute;inset:-9px;border:2px solid var(--oro);pointer-events:none}
+.marco::before{content:"";position:absolute;inset:-4px;border:1px solid var(--oro);pointer-events:none;z-index:1}
+.arco,.arco img{border-radius:999px 999px 0 0}
+.arco::after{border-radius:999px 999px 0 0}
+.arco::before{border-radius:999px 999px 0 0}
+
+.voluta{display:block;width:7.5rem;height:1.5rem;color:var(--oro);fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round}
+
+/* Cabecera y portada */
+.arriba{background:var(--rosa)}
+.cabecera .caja{display:flex;align-items:center;justify-content:space-between;gap:.75rem 1.5rem;flex-wrap:wrap;padding-top:1.25rem}
+.marca{display:block;width:min(15.5rem,70%);color:var(--tinta);line-height:0;border:0}
+.marca svg{width:100%;height:auto;display:block}
+.menu{display:flex;gap:0 1.25rem;list-style:none;margin:0;padding:0}
+.menu a{display:inline-flex;align-items:center;min-height:44px;color:var(--tinta)}
+.menu a:hover{color:var(--acento-oscuro)}
+.portada{padding-block:2rem 4rem}
+.portada .caja{display:grid;gap:2rem}
+.portada .texto{display:grid;gap:1.25rem;align-content:center}
+.portada p.lead{font-size:1.2rem;color:var(--tinta-suave);margin:0}
+.portada .marco{margin-inline:.6rem}
+.portada .marco img{aspect-ratio:4/5;object-position:50% 30%}
+.botones{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center}
+.boton{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:.5rem 1.5rem;border:3px solid var(--tinta);border-radius:.4rem;font:700 1.0625rem/1 var(--texto);color:var(--tinta);background:transparent;transition:background-color .15s ease,color .15s ease,transform .15s ease}
+.boton.principal{background:var(--acento);border-color:var(--acento);color:#fff}
+.boton:active{transform:scale(.97)}
+@media (hover:hover) and (pointer:fine){
+  .boton:hover{background:var(--tinta);color:var(--crema);border-color:var(--tinta)}
+  .boton.principal:hover{background:var(--acento-oscuro);border-color:var(--acento-oscuro);color:#fff}
+}
+.estado{margin:0;font-weight:700;font-size:1rem}
+.estado[hidden]{display:none}
+.estado::before{content:"";display:inline-block;width:.7em;height:.7em;border-radius:50%;margin-right:.55em;background:currentColor}
+.estado.abierto{color:#1d6b38}
+.estado.cerrado{color:var(--acento-oscuro)}
+
+/* Qué hay */
+.hay{padding-block:3.5rem 4rem}
+.hay .caja{display:grid;gap:3rem}
+.pila{position:relative;display:grid;gap:0}
+.pila .lamparas{margin-inline:.6rem}
+.pila .lamparas img{aspect-ratio:420/330}
+.pila .flores{width:68%;margin:-2.5rem .6rem 0 auto;z-index:2}
+.pila .flores img{aspect-ratio:1/1.05}
+.relato{display:grid;gap:1.75rem;align-content:center}
+.relato h2{margin-bottom:.25rem}
+.bloque{border-top:2px solid var(--oro);padding-top:.9rem}
+.bloque h3{font-size:1.65rem;margin-bottom:.4rem}
+.bloque p{margin:0;font-size:1.15rem}
+.relato .cierre{font-family:var(--serif);font-size:1.3rem;line-height:1.4;margin:0}
+.foto{margin:0}
+.foto:empty{display:none}
+.foto img{display:block;width:100%;height:auto}
+
+/* Visita */
+.visita{background:var(--rosa);padding-block:4rem}
+.visita .caja{display:grid;gap:3rem}
+.visita h2{margin-bottom:1.25rem}
+.direccion{font-family:var(--serif);font-size:clamp(1.5rem,5vw,2rem);line-height:1.2;font-style:normal;margin:0 0 .35rem}
+.nombre-tienda{font:700 1rem/1 var(--cond);font-stretch:75%;text-transform:uppercase;letter-spacing:.08em;margin:0 0 .5rem;color:var(--tinta-suave)}
+.visita .botones{margin:1.5rem 0 2rem}
+.contacto{list-style:none;margin:0;padding:0;display:grid;gap:.35rem}
+.contacto li{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 1rem}
+.contacto .et{min-width:5.5rem;font-size:.95rem;color:var(--tinta-suave)}
+.contacto a{display:inline-flex;align-items:center;min-height:44px;font-size:1.15rem}
+.contacto a.tel{font-family:var(--serif);font-size:1.7rem;color:var(--tinta)}
+.contacto a.tel:hover{color:var(--acento-oscuro)}
+
+/* Cartel de la puerta */
+.cartel{position:relative;background:var(--tinta);color:var(--crema);padding:2rem 1.5rem 1.75rem;margin-inline:.4rem;border-radius:.3rem}
+.cartel::before{content:"";position:absolute;inset:8px;border:1.5px solid var(--oro-claro);border-radius:.2rem;pointer-events:none}
+.cartel h3{color:var(--crema);font-size:2rem;text-align:left}
+.cartel .voluta{color:var(--oro-claro);margin:.6rem 0 1.25rem}
+.cartel table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.cartel caption{position:absolute;left:-999rem}
+.cartel th,.cartel td{text-align:left;padding:.7rem 0;vertical-align:top;border-bottom:1px solid rgba(220,187,108,.45)}
+.cartel tr:last-child th,.cartel tr:last-child td{border-bottom:0}
+.cartel th{font:700 1.05rem/1.2 var(--cond);font-stretch:75%;text-transform:uppercase;letter-spacing:.1em;color:var(--oro-claro);width:40%;padding-top:.85rem}
+.cartel td{font-family:var(--serif);font-size:1.35rem;line-height:1.35}
+.cartel .estado{margin-top:1.1rem;font-size:1.05rem}
+.cartel .estado.abierto{color:#8fdca8}
+.cartel .estado.cerrado{color:#ffb39b}
+
+/* Pie */
+.pie{background:var(--tinta);color:var(--crema);padding-block:2.5rem}
+.pie a{color:var(--crema)}
+.pie a:hover{color:var(--oro-claro)}
+.pie .nombre{font:700 1.75rem/1 var(--cond);font-stretch:75%;text-transform:uppercase;margin:0 0 .75rem}
+.pie h2{font:700 1.1rem/1.2 var(--texto);margin:1.5rem 0 .5rem}
+.pie p{font-size:.95rem;margin-bottom:.5rem}
+
+/* Entrada de la portada */
+@media (prefers-reduced-motion:no-preference){
+  .entra{animation:entra .8s cubic-bezier(.23,1,.32,1) both}
+  .entra:nth-child(2){animation-delay:.08s}
+  .entra:nth-child(3){animation-delay:.16s}
+  .entra:nth-child(4){animation-delay:.24s}
+  @keyframes entra{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+}
+@media (prefers-reduced-motion:reduce){.boton,a{transition:none}}
+
+@media (min-width:48rem){
+  .marca{width:21rem}
+  .portada{padding-block:3rem 8rem}
+  .portada .caja{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:4.5rem;align-items:center}
+  .portada .marco{margin:0;max-width:30rem;justify-self:end;width:100%}
+  .portada .marco img{aspect-ratio:3/4;object-position:50% 50%}
+  .hay{padding-block:0 6rem}
+  .hay .caja{grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:5rem;align-items:center}
+  .pila .lamparas{margin:-5.5rem 0 0 0;max-width:30rem}
+  .pila .flores{width:62%;margin:-3rem 0 0 auto}
+  .visita{padding-block:5.5rem}
+  .visita .caja{grid-template-columns:minmax(0,1fr) minmax(0,26rem);gap:5rem;align-items:center}
+  .cartel{padding:2.5rem 2.25rem 2.25rem;margin:0}
+}
+@media (min-width:64rem){
+  .marca{width:24rem}
+  .relato{gap:2rem}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="voluta" viewBox="0 0 120 24">
+    <path d="M2 12H34M34 12C34 5 42 3 47 6C52 9 50 16 44 15C40 14 40 10 43 10M118 12H86M86 12C86 19 78 21 73 18C68 15 70 8 76 9C80 10 80 14 77 14M52 12H68"/>
+  </symbol>
+</svg>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<div class="arriba">
+  <header class="cabecera">
+    <div class="caja">
+      <!-- LOGO: sustituir por el archivo oficial cuando lo haya (ver LEEME.md). Esta marca en SVG es provisional, hecha con tipografía. -->
+      <a class="marca" href="#contenido" aria-label="Pleximar, ir al inicio">
+        <svg viewBox="0 0 420 124" aria-hidden="true" focusable="false">
+          <polygon points="12,8 408,36 408,88 12,116" fill="#fbf1ec" stroke="currentColor" stroke-width="9" stroke-linejoin="round"/>
+          <polygon points="24,22 396,47 396,77 24,102" fill="none" stroke="#9a7424" stroke-width="1.5" stroke-linejoin="round"/>
+          <text x="36" y="80" textLength="350" lengthAdjust="spacingAndGlyphs" fill="currentColor" font-family='Bahnschrift,"Avenir Next Condensed","Arial Narrow","Roboto Condensed",Arial,sans-serif' font-weight="700" font-size="58" style="font-stretch:75%">PLE<tspan font-size="84" dy="4">X</tspan><tspan dy="-4">IMAR</tspan></text>
+        </svg>
+      </a>
+      <nav aria-label="Principal">
+        <ul class="menu">
+          <li><a href="#que-hay">Qué hay</a></li>
+          <li><a href="#visita">Cuándo y dónde</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="portada" aria-labelledby="titulo">
+      <div class="caja">
+        <div class="texto">
+          <h1 id="titulo" class="entra">Entra a mirar, que hay mucho que ver</h1>
+          <p class="lead entra">Decoración y menaje para la casa, y utensilios e ingredientes para tus dulces. Estamos en la calle Medina, en el centro de Jerez.</p>
+          <div class="entra" style="display:grid;gap:1rem">
+            <div class="botones">
+              <a class="boton principal" href="tel:+34956341095">Llamar</a>
+              <a class="boton" href="https://www.google.com/maps/search/?api=1&amp;query=Pleximar%2C+C.+Medina+7%2C+11402+Jerez+de+la+Frontera" target="_blank" rel="noopener">Cómo llegar</a>
+            </div>
+            <p class="estado" data-estado hidden></p>
+          </div>
+        </div>
+        <figure class="marco entra">
+          <picture>
+            <source type="image/webp" srcset="fotos/tienda-480.webp 480w, fotos/tienda.webp 765w" sizes="(min-width:48rem) 480px, 92vw">
+            <img src="fotos/tienda.jpg" srcset="fotos/tienda-480.jpg 480w, fotos/tienda.jpg 765w" sizes="(min-width:48rem) 480px, 92vw" width="765" height="1020" fetchpriority="high" alt="Interior de la tienda Pleximar: lámparas colgantes, espejos con marco dorado, estanterías con marcos de fotos, flores y una mesa de madera">
+          </picture>
+        </figure>
+      </div>
+    </section>
+  </main>
+</div>
+
+<section class="hay" id="que-hay" aria-labelledby="t-que">
+  <div class="caja">
+    <div class="pila">
+      <figure class="marco lamparas">
+        <picture>
+          <source type="image/webp" srcset="fotos/lamparas.webp">
+          <img src="fotos/lamparas.jpg" width="420" height="330" loading="lazy" alt="Lámparas colgantes de cristal y metal calado, y una pantalla naranja, en el techo de la tienda">
+        </picture>
+      </figure>
+      <figure class="marco arco flores">
+        <picture>
+          <source type="image/webp" srcset="fotos/flores.webp">
+          <img src="fotos/flores.jpg" width="385" height="400" loading="lazy" alt="Rincón de la tienda con rosas, flores de lavanda y un mueble auxiliar con cajones">
+        </picture>
+      </figure>
+    </div>
+    <div class="relato">
+      <div>
+        <h2 id="t-que">Qué hay dentro</h2>
+        <svg class="voluta" aria-hidden="true" focusable="false" style="margin-top:.75rem"><use href="#voluta"/></svg>
+      </div>
+      <div class="bloque">
+        <h3>Para la casa</h3>
+        <p>Lámparas, espejos, marcos de fotos, flores y plantas decorativas, y algún mueble pequeño para completar un rincón.</p>
+      </div>
+      <div class="bloque">
+        <h3>Para la cocina y la repostería</h3>
+        <p>Menaje, y utensilios e ingredientes para hacer tus dulces en casa.</p>
+      </div>
+      <p class="cierre">¿Buscas algo concreto? Llámanos y te decimos si lo tenemos, o pasa a verlo.</p>
+      <!-- FOTO FUTURA 1: otra foto real de la tienda (estantería de repostería, escaparate...). Quitar los comentarios y poner el archivo en fotos/ -->
+      <figure class="foto"><!-- <img src="fotos/reposteria.jpg" alt="Utensilios de repostería en Pleximar" width="1200" height="800" loading="lazy"> --></figure>
+    </div>
+  </div>
+</section>
+
+<section class="visita" id="visita" aria-labelledby="t-visita">
+  <div class="caja">
+    <div>
+      <h2 id="t-visita">Ven a vernos</h2>
+      <p class="nombre-tienda" translate="no">Pleximar</p>
+      <address class="direccion">C. Medina, 7, 11402 Jerez de la Frontera, Cádiz</address>
+      <div class="botones">
+        <a class="boton principal" href="https://www.google.com/maps/search/?api=1&amp;query=Pleximar%2C+C.+Medina+7%2C+11402+Jerez+de+la+Frontera" target="_blank" rel="noopener">Cómo llegar</a>
+      </div>
+      <ul class="contacto">
+        <li><span class="et">Teléfono</span><a class="tel" href="tel:+34956341095">956 34 10 95</a></li>
+        <li><span class="et">Correo</span><a href="mailto:info@pleximar.com">info@pleximar.com</a></li>
+        <li><span class="et">Facebook</span><a href="https://www.facebook.com/PleximarJerez/" target="_blank" rel="noopener">Pleximar en Facebook</a></li>
+      </ul>
+      <!-- FOTO FUTURA 2: foto real de la fachada o la puerta, para reconocer la tienda al llegar -->
+      <figure class="foto"><!-- <img src="fotos/fachada.jpg" alt="Fachada de Pleximar en la calle Medina" width="1200" height="900" loading="lazy"> --></figure>
+    </div>
+    <div class="cartel">
+      <h3>Horario</h3>
+      <svg class="voluta" aria-hidden="true" focusable="false"><use href="#voluta"/></svg>
+      <table>
+        <caption>Horario de apertura</caption>
+        <tbody>
+          <tr><th scope="row">Lunes a viernes</th><td>10:00-13:30<br>17:30-20:30</td></tr>
+          <tr><th scope="row">Sábado</th><td>10:00-14:00</td></tr>
+          <tr><th scope="row">Domingo</th><td>Cerrado</td></tr>
+        </tbody>
+      </table>
+      <p class="estado" data-estado hidden></p>
+    </div>
+  </div>
+</section>
+
+<footer class="pie">
+  <div class="caja">
+    <p class="nombre" translate="no">Pleximar</p>
+    <p>C. Medina, 7, 11402 Jerez de la Frontera, Cádiz</p>
+    <!-- REVISAR con un abogado antes de publicar -->
+    <section id="aviso-legal" aria-labelledby="t-aviso">
+      <h2 id="t-aviso">Aviso legal</h2>
+      <p>Titular: Manuel García Santos, empresario individual (autónomo). NIF: 31627983Q.</p>
+      <p>Domicilio: Calle Medina, 7, 11402 Jerez de la Frontera (Cádiz). Correo: <a href="mailto:info@pleximar.com">info@pleximar.com</a>.</p>
+      <p>Esta web no usa cookies ni recoge datos.</p>
+    </section>
+  </div>
+</footer>
+
+<script>
+/* Indicador "Abierto ahora / Cerrado ahora" con la hora de Madrid. Si falla, no se pinta nada. No tiene en cuenta festivos. */
+(function(){
+  try{
+    var els=document.querySelectorAll('[data-estado]');
+    var p=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Madrid',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());
+    var d={},i;for(i=0;i<p.length;i++)d[p[i].type]=p[i].value;
+    var m=parseInt(d.hour,10)*60+parseInt(d.minute,10);
+    var tramos={Mon:[[600,810],[1050,1230]],Tue:[[600,810],[1050,1230]],Wed:[[600,810],[1050,1230]],Thu:[[600,810],[1050,1230]],Fri:[[600,810],[1050,1230]],Sat:[[600,840]],Sun:[]}[d.weekday];
+    if(!tramos||isNaN(m))return;
+    var abierto=tramos.some(function(t){return m>=t[0]&&m<t[1]});
+    for(i=0;i<els.length;i++){
+      els[i].textContent=abierto?'Abierto ahora':'Cerrado ahora';
+      els[i].className='estado '+(abierto?'abierto':'cerrado');
+      els[i].hidden=false;
+    }
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
